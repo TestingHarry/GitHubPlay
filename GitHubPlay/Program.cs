@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,7 +11,11 @@ namespace GitHubPlay
     {
         static void Main(string[] args)
         {
-            ///NOTHING GOING ON BUT THE RENT
+            Console.WriteLine("Hello World");
+            Console.ReadLine();
+            string s = "Goodbye World";
+            Console.WriteLine(s);
+            Console.ReadLine();
 
         }
     }
